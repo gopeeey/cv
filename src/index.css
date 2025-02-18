@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-light: #f8e5e7;
+  --color-accent: #9e3239;
+}
+
+html {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Noto Sans", serif;
+  print-color-adjust: exact;
+}
+
+p {
+  line-height: 1.5;
+}
