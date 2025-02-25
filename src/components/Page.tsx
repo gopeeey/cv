@@ -1,5 +1,4 @@
 import { CiGlobe } from "react-icons/ci";
-import { FaWhatsapp } from "react-icons/fa";
 import { LuPhone } from "react-icons/lu";
 import { MdMailOutline } from "react-icons/md";
 import { resumeData } from "../data/resume-data";
@@ -9,7 +8,7 @@ import Section from "./Section";
 export default function Page() {
   return (
     <div>
-      <div className="mt-10 border-b-[1.5px] pb-3">
+      <div className="mt-6 border-b-[1.5px] pb-3">
         <div className="flex items-center">
           <h1 className="text-4xl font-bold">{resumeData.name}</h1>
           <span className="text-2xl inline-block mx-2">|</span>
@@ -29,14 +28,14 @@ export default function Page() {
             icon={<LuPhone />}
           />
 
-          <Contact
+          {/* <Contact
             display={resumeData.contact.whatsapp}
             link={`https://wa.me/${resumeData.contact.whatsapp.replace(
               "+234",
               "0"
             )}`}
             icon={<FaWhatsapp />}
-          />
+          /> */}
 
           <Contact
             display={resumeData.portfolioLink.replace("https://", "")}

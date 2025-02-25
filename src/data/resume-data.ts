@@ -12,8 +12,7 @@ export const resumeData = {
   // personalWebsiteUrl: "https://gopeh.com",
   contact: {
     email: "sammygopeh@gmail.com",
-    tel: "+2347049240767",
-    whatsapp: "+2349055551371",
+    tel: "+2347049240727",
     social: [
       {
         name: "GitHub",
@@ -45,6 +44,9 @@ export const resumeData = {
         "Trained and fine-tuned LLMs to improve task performance and language understanding.",
       accomplishments: [
         "Trained and fine-tuned LLMs to improve code-related task performance and language understanding.",
+        "Reviewed code and data submitted by other trainers to ensure they met the team's standards.",
+        "Mentored new trainers and provided guidance in helping them improve their performance.",
+        "Assisted in creating/modifying code-related data annotation guidelines that were adhered to by the team.",
       ],
     },
     {
