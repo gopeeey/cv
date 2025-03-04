@@ -1,12 +1,12 @@
 export const resumeData = {
   name: "Samuel Gopeh",
   initials: "SG",
-  location: "Ibadan 200213, Oyo, Nigeria.",
+  location: "Ibadan, Nigeria.",
   locationLink: "https://www.google.com/maps/place/Ibadan",
   portfolioLink: "https://www.gopeh.com",
   about: "Full Stack Developer",
   summary:
-    "As a full stack developer with six years of hands-on experience, I excel in client-side and server-side development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture.",
+    "As a full stack developer with six years of hands-on experience, I excel in frontend and backend development. Driven by a profound passion for my craft, I remain dedicated to creating scalable and efficient solutions while maintaining clean architecture.",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/54728958?s=400&u=d6be5c87f709017b235b8f80e4eb3be9be8b43d3&v=4",
   // personalWebsiteUrl: "https://gopeh.com",
@@ -37,7 +37,7 @@ export const resumeData = {
       company: "Turing",
       link: "https://www.turing.com/",
       badges: ["Remote"],
-      title: "Fullstack Developer",
+      title: "Full Stack Developer",
       start: "Apr",
       end: "Nov 2024",
       description:
@@ -54,13 +54,13 @@ export const resumeData = {
       link: "https://www.blendingbytes.com/",
       badges: ["Remote"],
       title: "Backend Developer (Contract)",
-      start: "2023",
-      end: "2024",
+      start: "Nov 2023",
+      end: "Jan 2024",
       description:
         "Implemented the backend for a faceted search and provided general insight into backend code architecture. Technologies: Typescript, Node.js and Mongodb.",
       accomplishments: [
-        "Implemented the backend for a faceted search.",
         "Reduced database cost by optimizing existing inefficient queries.",
+        "Implemented the backend for a faceted search.",
         "Improved developer experience through comprehensive insights into backend code architecture.",
       ],
     },
@@ -69,8 +69,8 @@ export const resumeData = {
       link: "https://heyfood.africa/",
       badges: ["Hybrid"],
       title: "Full Stack Developer",
-      start: "2021",
-      end: "2023",
+      start: "Jan 2021",
+      end: "Dec 2023",
       description:
         "Implemented a vast array of new features including an order assignment system, a notification system, a vendor payout system, several dashboards to mention a few. Led the team, developed deployment strategies for new features, carried-out migration from Mongodb to Postgresql, and many more. Technologies: TypeScript, Javascript, Node.js, Express.js, MongoDB, Postgresql, Redis, Firebase, AWS, React.js/Next.js and multiple integrations with third party APIs.",
       accomplishments: [
@@ -87,8 +87,8 @@ export const resumeData = {
       link: "https://www.linkedin.com/company/bluu-africa/",
       badges: ["Remote"],
       title: "Full Stack Developer",
-      start: "2019",
-      end: "2021",
+      start: "Aug 2019",
+      end: "Jan 2021",
       description:
         "Worked in a team of 3 to build a blog and an e-commerce website for the company. Technologies: Python, Django, React.js, Next.js, Javascript, PostgreSQL",
       accomplishments: [
@@ -100,6 +100,7 @@ export const resumeData = {
   skills: [
     "TypeScript",
     "JavaScript",
+    "C++",
     "Node.js",
     "Express.js",
     "PostgreSQL",
@@ -112,8 +113,6 @@ export const resumeData = {
     "AWS",
     "Firebase",
     "Azure",
-    "Python",
-    "Django",
     "React",
     "Next.js",
     "TailwindCSS",
@@ -142,7 +141,7 @@ export const resumeData = {
       description:
         "An open source error logging and monitoring system for Node.js applications. It helps developers track errors and exceptions, making it easier to identify and fix issues.",
       shortDescription:
-        "An open source error logging and monitoring system for Node.js applications",
+        "An open source error logging and monitoring system for Node.js applications.",
       link: {
         label: "https://github.com/gopeeey/codewatch",
         href: "https://github.com/gopeeey/codewatch",
@@ -167,6 +166,18 @@ export const resumeData = {
         href: "https://www.npmjs.com/package/bufferbus",
       },
     },
+    {
+      title: "Git",
+      techStack: ["C++"],
+      description:
+        "My C++ implementation of the popular version control system.",
+      shortDescription:
+        "My C++ implementation of the popular version control system.",
+      link: {
+        label: "https://github.com/gopeeey/git",
+        href: "https://github.com/gopeeey/git",
+      },
+    },
     // {
     //   title: "Paychip",
     //   techStack: ["TypeScript", "Node.js", "Postgresql", "Redis", "Jest"],
@@ -187,27 +198,27 @@ export const resumeData = {
         href: "https://www.gopeh.com",
       },
     },
-    {
-      title: "S.A.T.G",
-      techStack: [
-        "TypeScript",
-        "JavaScript",
-        "Socket.io",
-        "RabbitMQ",
-        "Mongodb",
-        "Redis",
-        "HTML",
-        "CSS",
-      ],
-      description:
-        "Short for Super Awesome Typing Game. A real-time multiplayer typing game",
-      shortDescription:
-        "Short for Super Awesome Typing Game. A real-time multiplayer typing game",
-      link: {
-        label: "satg.gopeh.com",
-        href: "https://satg.gopeh.com/",
-      },
-    },
+    // {
+    //   title: "S.A.T.G",
+    //   techStack: [
+    //     "TypeScript",
+    //     "JavaScript",
+    //     "Socket.io",
+    //     "RabbitMQ",
+    //     "Mongodb",
+    //     "Redis",
+    //     "HTML",
+    //     "CSS",
+    //   ],
+    //   description:
+    //     "Short for Super Awesome Typing Game. A real-time multiplayer typing game",
+    //   shortDescription:
+    //     "Short for Super Awesome Typing Game. A real-time multiplayer typing game",
+    //   link: {
+    //     label: "satg.gopeh.com",
+    //     href: "https://satg.gopeh.com/",
+    //   },
+    // },
     // {
     //   title: "U.O.D",
     //   techStack: ["JavaScript", "Node.js", "HTML", "CSS"],

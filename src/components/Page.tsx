@@ -1,6 +1,7 @@
 import { CiGlobe } from "react-icons/ci";
 import { LuPhone } from "react-icons/lu";
 import { MdMailOutline } from "react-icons/md";
+import { SlLocationPin } from "react-icons/sl";
 import { resumeData } from "../data/resume-data";
 import Contact from "./Contact";
 import Section from "./Section";
@@ -42,6 +43,12 @@ export default function Page() {
             link={resumeData.portfolioLink}
             icon={<CiGlobe />}
           />
+
+          <Contact
+            display={resumeData.location}
+            link={resumeData.locationLink}
+            icon={<SlLocationPin />}
+          />
         </div>
       </div>
 
@@ -51,7 +58,7 @@ export default function Page() {
             <p className="text-sm">{resumeData.summary}</p>
           </Section>
 
-          <Section title="EXPERIENCE">
+          <Section title="WORK EXPERIENCE">
             {resumeData.work.map((role) => (
               <div key={role.company} className="mb-4">
                 <h3 className="text-md font-bold">
@@ -81,10 +88,14 @@ export default function Page() {
 
         <div className="col-span-4">
           <Section title="SKILLS">
-            <p className="text-sm">{resumeData.skills.join(" • ")}</p>
+            <ul className="text-sm grid grid-cols-2">
+              {resumeData.skills.map((skill) => (
+                <span key={skill}>{skill}</span>
+              ))}
+            </ul>
           </Section>
 
-          <Section title="PROJECTS">
+          <Section title="PERSONAL PROJECTS">
             <div>
               {resumeData.projects.map((project) => (
                 <div key={project.title} className="mb-4">
