@@ -1,7 +1,7 @@
 import { RouteObject } from "react-router-dom";
-import FullstackPage from "./pages/Fullstack";
 import BackendPage from "./pages/backend";
 import FrontendPage from "./pages/frontend";
+import FullstackPage from "./pages/fullstack";
 
 const routes: RouteObject[] = [
   {
